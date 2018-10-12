@@ -1,0 +1,17 @@
+---
+title: "Dissertation Proposal"
+author: "Allison Theobold"
+date: "October 26, 2018"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb}
+  \usepackage{microtype} \usepackage{multicol} \usepackage{tikz}
+nocite: "@hampton, @hutchins, @sedgewich1, @sedgewich2, @wing, @weintrop, @fox, @eglen,
+  @green, @cobb, @hernandez, @carpentry, @dunlang, @friedman, @hall, @pozzi, @pcobb \n"
+csl: apa.csl
+bibliography: Citations.bib
+---
+
+# References  

@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/424704/0e74af9197d3409bb8f17c77e4cbddbd
+bundleId: https://api.rpubs.com/api/v1/document/424704/0e74af9197d3409bb8f17c77e4cbddbd
+url: http://rpubs.com/atheobold/424704
+when: 1538533023.03772

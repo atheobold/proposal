@@ -1,0 +1,423 @@
+---
+title: "Supporting Data-Intensive Research in the Environmental Sciences"
+author: 'Advisor: Dr. Stacey Hancock'
+date: "October 10, 2018"
+output:
+  ioslides_presentation:
+    fig_height: 5
+    fig_width: 5
+    incremental: yes
+  beamer_presentation:
+    incremental: yes
+fontsize: 10pt
+header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb}
+  \usepackage{multicol} \usepackage{tikz} \usepackage{graphicx}
+subtitle: Allison Theobold
+---
+
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+knit_hooks$set(
+  figcap = function(before, options, envir){
+    if(options$eval){
+      figcap.before <- if(is.null(options$figcap.before)){
+        FALSE
+      }else{
+        options$figcap.before
+      }
+      if(before){
+        paste0('<div id="', options$label, '" class="figure">',
+               ifelse(figcap.before,
+                      paste0('<p class="caption capbefore">',
+                             options$figcap, '</p>'),
+                      ''))
+      }else{
+        paste0(ifelse(figcap.before,
+                      '',
+                      paste0('<p class="caption capafter">',
+                             options$figcap, '</p>')),
+               '</div>')
+      }
+    }
+  },
+  tabcap = function(before, options, envir){
+    if(options$eval){
+      tabcap.before <- if(is.null(options$tabcap.before)){
+        TRUE
+      }else{
+        options$tabcap.before
+      }
+      if(before){
+        paste0('<div id="', options$label, '" class="tableout">',
+               ifelse(tabcap.before,
+                      paste0('<p class="caption capbefore">',
+                             options$tabcap, '</p>'),
+                      ''))
+      }else{
+        paste0(ifelse(tabcap.before,
+                      '',
+                      paste0('<p class="caption capafter">',
+                             options$tabcap, '</p>')),
+               '</div>')
+      }
+    }
+  }
+)
+opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, figcap.before = TRUE)
+```
+
+## Outline  
+
+- Study Motivation  
+- Research Questions  
+- Pilot Study & Faculty Interviews  
+- Study Design for Workshops  
+- Data Collection & Analysis    
+- Benefits of Research  
+
+## A Motivating Vignette  
+
+- Suppose you are an Ecology graduate student studying the abundance of wild and hatchery-raised pallid sturgeon. You have collected data over the last 2 years on fish abundance along the same reaches of the Missouri River, to look for trends in fish abundance.  
+
+- When recording your data in Excel, you chose for each section of the Missouri to be a row and every sampling instance to be a different column.  
+
+![](figures/wide.jpg)
+
+
+## Data Problems  
+
+The `R` functions you saw in your courses require for your data to be in long format.
+
+![](figures/long.jpg) 
+
+## Motivation 
+
+- Changing practice of environmental science has changed, because of growth in computational power and the volume and variety of available data. 
+
+- Applications of statistical approaches that rely on computation, such as big data management, dynamic data visualization, and simulation based analyses, have become essential understandings for field applications (Weintrop et al., 2016). 
+
+- These advances have created a growing need for scientists to receive an appropriate education in computational methods and techniques relevant to their discipline.  
+
+- The growing need for computation in science education is greater than ever (Fox & Ouellette, 2013).
+
+## (Lack of) Computing in Environmental Sciences  
+
+- In this rapidly changing computational landscape calls have surfaced to re-evaluate how curricula to "better prepare current and future generations of environmental researchers" (Green et al., 2005; Hampton et al., 2016).   
+
+- Over the last twenty years, Statistics preparation in the environmental sciences has become  vital.  
+    * Hence, Statistics courses have been incorporated into these graduate programs, across the nation.  
+    
+## (Lack of) Computing in Environmental Sciences   
+
+- A 2012 survey of graduate students:     
+    * over 80% of students reported that they had received no formal training in computing, even at the most basic level    
+    * 74% stated that they had no skills in any programming language (Hernandez, Meyernik, Murphy-Mariscal & Allen, 2012).  
+
+- And most, if not all of what is known about data management, visualization, and analysis has been learned piecemeal, or not learned at all (Teal et al., 2015).  
+
+## Why Aren't They Learning Computing?   
+
+- "What we teach [in Statistics] lags decades behind what we practice" and "the gap between our half-century-old curriculum and our contemporary statistical practice continues to widen" (Cobb, 2015).   
+
+- "Computing has been one of the most glaring omissions in the set of tools that have so far defined Statistics education" (Friedman, 2001).    
+
+- In our courses, do students build the confidence needed to overcome computational challenges? 
+
+## What Do We Teach?
+ 
+- "Most of our students are not prepared for data analysis after their statistics [courses]," because "they have done very little actual data analysis" (Nolan & Temple Lang, 2010).  
+-  Lumley (2015) stated that our students know how to deal with $n \to \infty$ but cannot deal with a million observations.  
+
+- Students are either "told to learn how to program by themselves, from each other, or from their teaching assistant in a two-week "crash course" at the start of a course." 
+    * Sends a signal to students that computing is not of intellectual importance (Nolan & Temple Lang, 2010)  
+
+## Barriers to Incorporating Computing    
+
+- Attempting to fit more material into already-full courses and curricula. 
+
+- Potentially taught by people who may not feel prepared teach these topics. 
+
+-	Not clear what computing should be included and how.  
+
+- Not all institutions have the flexibility to develop a statistics course on computing with data.  
+
+## Computational Knowledge Acquisition 
+
+- Most researchers "learn what they know about programming and data management on their own or the information is passed down within a lab" (Teal et al, 2015).  
+
+- This process results in substantial hidden costs:
+    * students pick up bad habits and misunderstandings  
+    * learn just enough to get through     
+    * initial knowledge severely limits them 
+    
+## The Lens of Distributed Cognition  
+
+- Investigates the organization of cognitive systems but differs substantially from traditional cognitive theory. 
+
+- ![](figures/cognition.jpg)
+<!-- * Considers systems beyond the individual.  -->
+<!-- * Includes interactions between individuals.  -->
+<!-- * Incorporates resources and materials into an individual's environment.   -->
+    
+
+<!-- - These resources are shared socially to extend an individual's ability to accomplish something that they otherwise could not achieve alone.    -->
+
+## Beliefs of Distributed Cognition  
+
+- Individuals coordinate different types of structure in their environment. 
+
+- Coordinating these different structures requires effort.  
+
+- Individuals off-load tasks with high cognitive effort to their environment, whenever possible.  
+
+- Dynamics of cognitive load-balancing are available through social organizations.  
+
+
+## Research Questions  
+
+1. What computing skills are necessary for environmental science graduate students to successfully implement applications of statistics in their research?  
+
+2. How are students filling the gap between the computing skills they know and the computing skills they need to know, in order to perform applications of statistics in their research?  
+
+3. How can workshops help to alleviate this gap between statistical computing preparation and expectations?  
+
+## Pilot Study (Spring 2017)     
+
+- In my pilot study we asked environmental science graduate students to complete applications of statistical computing, in the context of ecological data.  
+
+```{r, out.width = "600px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/PilotQuestions.jpg")
+```  
+
+## Paths for Acquisition of Statistical Computing Skills 
+
+```{r, out.width = "800px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/Path.jpg")
+```  
+    
+## Faculty Interviews (Spring 2018)
+
+- Montana State faculty attributed these gaps in students' computational preparation, to the computational curricula at a university being driven by its faculty. 
+    
+    * _"Most graduate students come in knowing more about the tools one would use to manipulate data than their advisors do, at this point."_  
+    * _"I think the expectations have gone up in order of magnitude in the last decade. We have very high expectations of statistics and very low expectations in computation."_
+    * _"We had a computer science Python course that I took my first semester in grad school. That semester, I realized that [computing] was where biology was going."_ 
+ 
+
+## Gaps in Computational Preparation  
+
+- Few "low-level" computational understandings were gained from their Statistics coursework.
+    *  _"By the end of the semester I wouldn't look at what the code was doing, I would just run it."_   
+    * _"I had to learn the R first and then I could look back at the code and understand what was going on."_
+
+
+- Understandings informed by a student's independent research, were described largely as high-level concepts. 
+    * _"The data management stuff comes from independent research, trial and error, getting myself through."_    
+  
+\vspace{2cm}
+    
+- __Proposed Solution:__ workshops to develop computing skills 
+
+## Computing Learning Trajectory 
+
+\vspace{4cm} 
+
+```{r, out.width = "600px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/Trajectory2.jpg")
+```
+
+- "Instead of learning some things here and there, programming is a skill that is learned by building new information on top of earlier information" (Fuller et al., 2007). 
+
+## Classroom (Workshop) Design Study  
+
+-	Systematically study the development of computational skills, in the context of environmental science research.  
+
+- Including the design of a means by which to support the development of these computational skills. 
+    * investigate how to support this learning 
+    * develop, test, and revise conjectures about the learning process and how to support that learning 
+
+\vspace{1cm}
+
+- A design study is appropriate because: 
+    * it is difficult to study the learning of computing skills by observation  
+    * current research does not formulate what computational skills are necessary and how to be teach them 
+    
+<!-- ## Connection to Distributed Cognition   -->
+
+<!-- - No method other than observation can illuminate "what matters" in a setting.  -->
+
+<!-- - As the design process creates new tools for individuals, it adds new cognitive interactions to the study.  -->
+<!--     * Iterative process of observation to theory to design suggested for research in distributed cognition.  -->
+    
+
+## Components of a Design Study  
+
+- Specify goals for students' learning  
+
+- Document workshop starting points  
+
+- Delineate an envisioned learning trajectory  
+
+- Place the study in a theoretical context
+
+- Iterate between workshop design, data collection, and analysis 
+
+<!-- ## Interpretive Framework  -->
+
+<!-- -	We are focusing on workshop tasks and tools, the nature of field norms, and the quality of workshop discourse as potential supports for student learning.   -->
+
+<!-- - Forms of computational reasoning adults develop are shaped by  -->
+<!--     * the settings of their learning  -->
+<!--     * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).   -->
+
+## Workshop Learning Goals 
+
+- Unreasonable to expect that every researcher is an expert in their domain science, Statistics, data management, processing, and visualization (Hampton et al., 2015, p. 547).  
+
+```{r, out.width = "600px", out.height = "350px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/workshops.jpg")
+```
+
+<!-- - Researchers should have the computational tools to:  -->
+<!--     * work with messy or organized datasets, stored in varied data formats, in a reproducible workflow   -->
+<!--     * employ a variety of statistical methods and simulation   -->
+<!--     * make use of basic software skills   -->
+<!--     * create effective data visualizations (Hampton et al., 2015, p. 547)    -->
+    
+## Workshop Structure - Starting Points        
+
+- In the pilot study, as students reasoned through computational problems, their misconceptions of foundational concepts became unveiled.  
+
+- __Example:__ Many misunderstandings revolved around how `R` interprets logicals (TRUE/FALSE).  
+
+    * _"Using the subset command where you call the data fame and you have your \[\], and just do -c(species = c("Bull", "WCT"))."_  
+    * _"I think you can remove observations by putting the observation number, but I don't know exactly how."_
+    * _"I didn't know that was what was going on [subset using logicals]. I don't know if I was ever taught that."_    
+   
+## Workshop Material - Starting Points   
+
+- Montana State faculty from environmental science fields were interviewed regarding the computational expectations they believed were necessary for Master's and Doctoral research in their field. 
+
+- Computational expectations varied across fields of research, however, many faculty emphasized:  
+    * writing functions  
+    * using conditional statements  
+    * looping & vectorization   
+    * database storage       
+    * data manipulation  
+
+<!-- ## Theoretical Context       -->
+
+<!-- - Places the study in a larger theoretical context, as a case of supporting students' development of the statistical computing skills necessary for research.  -->
+<!--     * Discovery of fundamental computing skills required.  -->
+<!--     * Understanding of effective teaching techniques to promote learning of these skills.  -->
+
+<!-- - Create a "humble theory," upon which generalizations could potentially be based.    -->
+
+## Computational Skills Data Collection 
+
+- A "control" cohort of first year environmental science graduate students were recruited in Spring 2018 to follow through their program of study. 
+    * None of the students participated in a workshop. 
+    * Code generated for research practices. 
+    * Interviews on acquisition of computational skills. 
+
+<!-- (what methods are necessary in a variety of fields) -->
+<!-- (what skills are needed for data-intensive research) --> 
+
+- Observations of common environmental science courses which teach computing (e.g. WILD 401, PSPP 516). 
+    * Collection of associated course materials (syllabi, labs, online resources). 
+
+## (Holistic) Workshop Data Collection  
+
+- Prior to the workshop, participants are surveyed for: 
+    * demographic information
+    * what they expect and want to learn 
+    * what resources they have used to learn statistical computing
+    
+- Additionally, participants are asked to:  
+    * provide responses to "hands-on" applications of computational tasks
+    * evaluate workshop effectiveness  
+    
+
+## (Intervention) Workshop Data Collection  
+
+- An "intervention" cohort of first year graduate students will be recruited in spring 2019. 
+    * Attend all four workshops in spring 2019.
+    * Interview prior to first workshop, for baseline computational knowledge. 
+    * Interview following each workshop, to evaluate workshop environment, content, and student learning. 
+    * Collect and analyze the code generated for research practices. 
+    * Interviews to investigate acquisition of computational skills.  
+
+## Analytical Framework (Computing Skills)  
+
+- Interviews with "control" cohort will be transcribed, and descriptive coding will be implemented to detail  
+    * the computing skills participants employed to use statistics in their research    
+    * how they acquired their knowledge of these computational skills    
+    
+    
+- Course materials will be analyzed to isolate  
+    * computing concepts taught  
+    * instructional context used  
+    
+    
+- Course observations will be transcribed to analyze 
+    * nature of classroom discourse     
+    * pedagogical methods of instruction 
+
+## Analytical Framework (Workshops)  
+
+- Workshop materials will be kept from their first implementation (fall 2017), to identify 
+    * changes in workshop materials and the learning environment that evolved over the duration of the study
+    * how these changes supported students' development of successive forms of reasoning
+    
+- Interviews with "intervention" cohort will be open coded to detail  
+      * how successive forms of reasoning emerged as a reorganization of prior reasoning
+      * aspects of the workshop environment that helped promote learning
+      
+<!-- testing and revising conjectures about both students' prospective learning processes and the specific means of supporting them -->
+    
+<!-- - Following each workshop session, debriefing meetings with the researchers and assistants will be held.  -->
+
+<!-- -	Revised learning trajectory for the study, will be created at the close of each semester's workshops.  -->
+
+## Benefits to Environmental Science Research    
+
+- Outline key computational skills necessary for successful implementation of statistics to research in the environmental sciences.   
+
+- Detail the paths that students are employing when faced with computational challenges for their research.  
+
+- Understanding the importance of core skills for data-intensive environmental science research will help "facilitate the integration of training into the university" (Hampton et al., 2015, p. 555).    
+
+
+##  Benefits for Environmental Science *Researchers*    
+
+- The materials developed through these workshops will be publicly available. 
+
+- Create new resources to enhance students' learning of core computational skills, necessary for environmental science research. 
+
+- Introductory workshops have no barriers to entry. 
+<!-- , so that those seeking training can begin their journey with a basic understanding of statistical computing.  -->
+
+## Benefits to Curriculum 
+
+- The pace of technological development can demand that workshops thrive outside of university curricula. 
+    * Capable of adapting materials rapidly, following computational and disciplinary changes. 
+
+- Help to ease transition to integrating computing into the environmental science and Statistics curricula.  
+    * Pooling of resources, so that the materials are available in formats that can be quickly adapted and customized.   
+
+## References  
+
+```{r, out.width = "100px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("RPubs.jpg")
+
+```
+
+http://rpubs.com/atheobold/proposal
+
+
