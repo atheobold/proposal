@@ -75,5 +75,3 @@ knitr::include_graphics("figures/SpiralBlooms.jpg")
 
 - Create a "humble theory," upon which generalizations could potentially be based.
 
-## References  
-

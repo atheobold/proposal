@@ -85,9 +85,7 @@ opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, figcap.before = T
 
 - Suppose you are an Ecology graduate student studying the abundance of wild and hatchery-raised pallid sturgeon. You have collected data over the last 2 years on fish abundance along the same reaches of the Missouri River, to look for trends in fish abundance.  
 
-- When recording your data in Excel, you chose for each section of the Missouri to be a row and every sampling instance to be a different column.  
-
-![](figures/wide.jpg)
+- When recording your data in Excel, you chose for each section of the Missouri to be a row and every sampling instance to be a different column. ![](figures/wide.jpg)
 
 
 ## Data Problems  
@@ -100,7 +98,7 @@ The `R` functions you saw in your courses require for your data to be in long fo
 
 - Changing practice of environmental science has changed, because of growth in computational power and the volume and variety of available data. 
 
-- Applications of statistical approaches that rely on computation, such as big data management, dynamic data visualization, and simulation based analyses, have become essential understandings for field applications (Weintrop et al., 2016). 
+- Statistical approaches that rely on computation, such as big data management, dynamic data visualization, and simulation based analyses, have become essential understandings for field applications (Weintrop et al., 2016). 
 
 - These advances have created a growing need for scientists to receive an appropriate education in computational methods and techniques relevant to their discipline.  
 
@@ -246,7 +244,7 @@ knitr::include_graphics("figures/Trajectory2.jpg")
 
 - A design study is appropriate because: 
     * it is difficult to study the learning of computing skills by observation  
-    * current research does not formulate what computational skills are necessary and how to be teach them 
+    * current research does not formulate what computational skills are necessary and how to teach them 
     
 ## Components of a Design Study  
 
