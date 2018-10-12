@@ -10,43 +10,28 @@ output:
     fig_height: 3
 fontsize: 10pt 
 header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb} \usepackage{multicol}
-csl: apa.csl
-bibliography: Citations.bib
 ---
 
 ## Does Computing Belong in Statistics?  
 
 - Despite the urgings of the discipline to incorporate comupting into the curriculum, members of the discipline remain skeptical of the reformation of statistics curriclum.  
 
-- Moore (1997) cautioned statisticians to remember that we are "teaching our subject and not the tool" (p. 135), and to choose appropriate technology for student learning, rather than use the software that statisticians use.  
+- Moore (1997) cautioned statisticians to remember that we are "teaching our subject and not the tool" (p. 135). 
+- De Veaux & Vellman (2015) suggest that we "should not allow debates about methods to distract us from teaching a holistic understanding of what statisticians actually do."    
 
-- However, many practicioners argue that we should give our students the skills needed to "dive into the ocean." Wickam states that "we cannot be paralyzed by the potential dangers, as students will go swimming with or without us, and all we can do is prepare them as best we are able" [-@wickam, 2015].  
+- However, many practicioners argue that we should give our students the skills needed to "dive into the ocean." Wickam states that "we cannot be paralyzed by the potential dangers, as students will go swimming with or without us, and all we can do is prepare them as best we are able" (Wickam, 2015).  
 
 ## Faculty Preparation 
 
-- How do we prepare current faculty, the  vast majority of whom were taught in the probabilistic culture to develop courses that teach skills from both cultures?" [@rossman]. 
+- How do we prepare current faculty, the  vast majority of whom were taught in the probabilistic culture to develop courses that teach skills from both cultures?" (Peck, Chance, Rossman, 2015)S. 
 
-- Our community needs to engage seriously in the preparation of teachers, not just through hosting workshops, but through changing teacher preparation at the undergraduate, graduate, and credentialing levels. Both science and math teachers are, with some exceptions, frightfully unprepared to teach students to engage meaningfully with data. [@gould] 
+- Our community needs to engage seriously in the preparation of teachers, not just through hosting workshops, but through changing teacher preparation at the undergraduate, graduate, and credentialing levels. Both science and math teachers are, with some exceptions, frightfully unprepared to teach students to engage meaningfully with data (Gould, 2015).  
 
 ## Faculty Preparation (continued)  
 
 - One challenge to the success of this sea change is that statisticians often have not been taught computing formally, they have not had the opportunity to learn it well, and feel they cannot teach it effectively and so the cycle persists.  
 
-- This is very unfortunate as it means that new students do not have the opportunity to learn it well either. Furthermore, computing has become so much more important in the statistics ???eld than even ???ve years ago that a "just enough" level of understanding of computing is not adequate.  
-
-## Computation in Statistical Modeling  
-
-* A student collects data over 2 years on fish abundance along the same reaches of a stream. The data are recorded so that each section of the stream is a row and every sampling instance of that section is a column.   
-
-* A student wishes to test for a difference in mean length between Rainbow trout and Brown trout, however, their model diagnostics indicate a violation of the Normality assumption.  
-
-```{r, echo = FALSE, fig.width = 2, fig.height = 3, fig.align = "center", out.width = '0.5//linewidth', message = FALSE, warning = FALSE}
-require(car)
-y1 = scale(rnorm(30, 3, 5))
-qqPlot(y1, main = "Normal Q-Q plot", envelope = F, pch = 19, cex = 1.3)
-```
-
-* The sampling methods used by Fish, Wildlife, & Parks on the Blackfoot River has changed over the years. In the years 1989 to 1996 they used gill nets and since 1996 they have used electrofishing. 
+- This is very unfortunate as it means that new students do not have the opportunity to learn it well either. Furthermore, computing has become so much more important in the statistics field than even five years ago that a "just enough" level of understanding of computing is not adequate.  
 
 
 ## Tenants of Distributed Cognition  
@@ -55,16 +40,40 @@ qqPlot(y1, main = "Normal Q-Q plot", envelope = F, pch = 19, cex = 1.3)
 
 -  The organization of mind, both in development and in operation, is an emergent property of interactions among internal and external resources. 
 
-- The study of cognition is not separable from the study of culture, because agents live in complex cultural environments. (Hollan, Hutchins, & Kirsh, 2000).     
+- The study of cognition is not separable from the study of culture, because agents live in complex cultural environments. (Hollan, Hutchins, & Kirsh, 2000).    
+
+
+## Connection to Distributed Cognition
+
+- No method other than observation can illuminate "what matters" in a setting.
+
+- As the design process creates new tools for individuals, it adds new cognitive interactions to the study.
+    * Iterative process of observation to theory to design suggested for research in distributed cognition.
 
 
 ## Spiralizing Bloom's Taxonomy  
 
 ```{r, out.width = "400px", echo = FALSE, fig.align='center'}
-knitr::include_graphics("SpiralBlooms.jpg")
+knitr::include_graphics("figures/SpiralBlooms.jpg")
 ```
 
-- The spiral approach sees "each round as thoroughly learning some new piece of information which is then used as a basis for the next round in the topic" [@spiral].  
+- The spiral approach sees "each round as thoroughly learning some new piece of information which is then used as a basis for the next round in the topic" (Fuller et al., 2007).  
+
+## Interpretive Framework
+
+-	We are focusing on workshop tasks and tools, the nature of field norms, and the quality of workshop discourse as potential supports for student learning.
+
+- Forms of computational reasoning adults develop are shaped by
+    * the settings of their learning
+    * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).
+
+## Theoretical Context
+
+- Places the study in a larger theoretical context, as a case of supporting students' development of the statistical computing skills necessary for research.
+    * Discovery of fundamental computing skills required.
+    * Understanding of effective teaching techniques to promote learning of these skills.
+
+- Create a "humble theory," upon which generalizations could potentially be based.
 
 ## References  
 

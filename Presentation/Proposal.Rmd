@@ -248,14 +248,6 @@ knitr::include_graphics("figures/Trajectory2.jpg")
     * it is difficult to study the learning of computing skills by observation  
     * current research does not formulate what computational skills are necessary and how to be teach them 
     
-<!-- ## Connection to Distributed Cognition   -->
-
-<!-- - No method other than observation can illuminate "what matters" in a setting.  -->
-
-<!-- - As the design process creates new tools for individuals, it adds new cognitive interactions to the study.  -->
-<!--     * Iterative process of observation to theory to design suggested for research in distributed cognition.  -->
-    
-
 ## Components of a Design Study  
 
 - Specify goals for students' learning  
@@ -268,13 +260,6 @@ knitr::include_graphics("figures/Trajectory2.jpg")
 
 - Iterate between workshop design, data collection, and analysis 
 
-<!-- ## Interpretive Framework  -->
-
-<!-- -	We are focusing on workshop tasks and tools, the nature of field norms, and the quality of workshop discourse as potential supports for student learning.   -->
-
-<!-- - Forms of computational reasoning adults develop are shaped by  -->
-<!--     * the settings of their learning  -->
-<!--     * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).   -->
 
 ## Workshop Learning Goals 
 
@@ -311,13 +296,6 @@ knitr::include_graphics("figures/workshops.jpg")
     * database storage       
     * data manipulation  
 
-<!-- ## Theoretical Context       -->
-
-<!-- - Places the study in a larger theoretical context, as a case of supporting students' development of the statistical computing skills necessary for research.  -->
-<!--     * Discovery of fundamental computing skills required.  -->
-<!--     * Understanding of effective teaching techniques to promote learning of these skills.  -->
-
-<!-- - Create a "humble theory," upon which generalizations could potentially be based.    -->
 
 ## Computational Skills Data Collection 
 
@@ -401,7 +379,6 @@ knitr::include_graphics("figures/workshops.jpg")
 - Create new resources to enhance students' learning of core computational skills, necessary for environmental science research. 
 
 - Introductory workshops have no barriers to entry. 
-<!-- , so that those seeking training can begin their journey with a basic understanding of statistical computing.  -->
 
 ## Benefits to Curriculum 
 
