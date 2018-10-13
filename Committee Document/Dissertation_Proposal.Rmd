@@ -1,7 +1,6 @@
 ---
 title: "Dissertation Proposal"
 author: "Allison Theobold"
-date: "October 5, 2018"
 output:
   pdf_document: default
 header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb}
@@ -14,117 +13,197 @@ bibliography: Citations.bib
 
 # Introduction & Motivation 
 
-With society's increased computational power and the volume and variety of data, the practice of environmental science is changing. These changes have made computational abilities, such as data management, data visualization, and data analysis vital to researchers. However, in this changing climate the curricula in environmental science remains stagnant. A 2012 survey of graduate students in environmental sciences is eye opening, over 80% of students reported that they had received no formal training in computing, even at the most basic level, and 74% stated that they had no skills in any programming language [@hernandez]. 
+With society's increased computational power and the volume and variety of available data, the practice of environmental science is changing. These changes have reshaped the vital computational requirements for researchers to successfully manage their data, create data visualizations, and analyze their data. However, in this changing climate, the curricula in environmental science remains stagnant. In 2012 a survey of graduate students in environmental sciences found that "over 80% of students reported that they had received no formal training in computing, even at the most basic level, and 74% stated that they had no skills in any programming language" [@hernandez]. 
 
-Select undergraduate programs across the nation have begun to incorporate CS courses for non-majors into their life science curriculum, yet graduate programs have yet to see such an inclusion of computing into the curriculum. Meanwhile, in the environmental sciences, Statistics preparation is considered fundamental. Statistics courses have been readily incorporated into graduate environmental science programs, with the implicit assumption that these courses would also introduce students to the computational skills necessary for their research.   
+Select undergraduate programs across the nation have begun to incorporate CS courses for non-majors into their life science curriculum. Many chemistry, biochemistry, and bioinformatic graduate programs have begun to incorporate computational training into their programs, however, a similar revolution, affirming the importance of computational proficiency, has yet to be experienced in the environmental sciences. However, in the environmental sciences, preparation in applied statistics is considered fundamental. Hence, statistics courses have been readily incorporated into graduate environmental science programs, with the implicit assumption that these courses would also introduce students to the computational skills necessary for their research. 
 
-Statistics educators across the nation have called for a re-evaluation of the Statistics curriculum to incorporate computing, stating that the curriculum as it stands does not prepare students for the modern practice of Statistics [@cobb; @dunlang; Lumley, 2001; @hampton]. All arguments considered, there are barriers to incorporating computing that many institutions fall victim to [@hampton]. The question is thus, if these students are not being taught these vital computational skills needed for their research, where are they acquiring them?  
+Statistics educators across the nation have called for a re-evaluation of the statistics curriculum to incorporate computing, stating that the curriculum as it stands does not prepare students for the modern practice of statistics [@cobb; @dunlang; Lumley, 2001; @hampton]. All arguments considered, there are barriers to incorporating computing that many institutions fall victim to [@hampton]. The question is thus: if these students are not being taught these vital computational skills needed for them to successfully implement statistics within their research, where are they acquiring them?  
 
-Most, if not all, of what environmental science researchers know about data management, visualization, and analysis has been learned piecemeal, through the lab, or not learned at all [@carpentry]. This communal process of acquiring the computation knowledge necessary for environmental science research lends itself well to the theoretical perspective of distributed cognition. Distributed cognition, like any cognitive theory, investigates the organization of cognitive systems. Unlike traditional cognitive theory, distributed cognition (1) considers the cognitive system beyond the individual, (2) includes interactions between individuals, and (3) incorporates resources and materials into an individual's environment [@hutchins]. While social constructivism attends to the knowledge created through interactions between individuals, it does not attend to the tools and resources available to the individual in the acquisition of knowledge. 
+Most, if not all, of "what environmental science researchers know about data management, visualization, and analysis has been learned piecemeal, through their lab, or not learned at all" [@carpentry]. This communal process of acquiring the computation knowledge necessary for environmental science research lends itself well to the theoretical lens of distributed cognition. Distributed cognition, like any cognitive theory, investigates the organization of cognitive systems. However, unlike traditional cognitive theory, distributed cognition (1) considers the cognitive system beyond the individual, (2) includes interactions between individuals, and (3) incorporates resources and materials into an individual's environment [@hutchins]. While social constructivism attends to the knowledge created through interactions between individuals, it does not attend to the tools and resources available to the individual in their acquisition of knowledge.  
 
-The theory of distributed cognition allows for us to seek to understand the relationships between elements in an individual's cognitive process. The literature on computational knowledge acquisition in the environmental sciences notes how an individual distributes the cognitive processes of learning computing to their social environment. Additionally, the literature acknowledges the variety of resources available to students when seeking to acquire computational knowledge [@hampton; @sedgewich1; @sedgewich2; @eglen], but does not embrace the coordination required of an individual when balancing internal (social) and external (resource) materials.   
+The theory of distributed cognition allows for us to seek to understand the relationships between elements in an individual's cognitive process. The literature on computational knowledge acquisition in the environmental sciences notes how an individual distributes the cognitive processes of learning computing to their social environment. Additionally, the literature acknowledges the variety of materials and resources available to students when seeking to acquire computational knowledge [@hampton; @sedgewich1; @sedgewich2; @eglen]. Yet, the literature does not embrace the coordination required of an individual when balancing these internal (social) and external (resource) materials, in the process of acquiring the computational skills necessary for their research.   
 
-This study acknowledges each of these environmental influences, aiming to understand how individuals coordinate their environments to acquire the computational skills necessary to perform their research. Additionally, I plan to investigate how an additional resource, workshops targeted towards key computational skills, influence individuals in attaining these necessary skills. 
+This study intends to understand how these individuals coordinate their environmental influences, such as their backgrounds, coursework, peers, and online resources, in order to acquire the computational skills necessary to implement statistics within their research. Additionally, I plan to investigate how an additional resource, workshops targeted towards key computational skills necessary for research in environmental science, can influence individuals' attainment of these necessary skills. 
 
 <!-------------------------------- RESEARCH QUESTIONS ------------------------------------------>
 
 # Research Questions  
 To address the aims outlined above, we propose three research questions:  
 
-- What computing skills are necessary for environmental science graduate students to successfully implement applications of statistical computing in their research?  
+1. What computing skills are necessary for environmental science graduate students to successfully implement applications of statistics in their research?  
 
-- How are students filling the gap between the computing skills they know and the computing skills they need to know, in order to perform applications or statistics in their research?  
+2. How are students filling the gap between the computing skills they know and the computing skills they need to know, in order to perform applications of statistics in their research?  
 
-- How can workshops help to alleviate this gap between statistical computing knowledge and expectations? 
+3. How can workshops help to alleviate this gap between statistical computing preparation and expectations? 
 
 <!-------------------------------- METHODOLOGY  ----------------------------------------------->
 
-# Methodology 
+# Methodology   
+
+_In this section I outline the methodologies I propose to frame both aspects of my study. The first section addresses the methodology I plan to frame the study to develop workshops for key computational skills necessry for research in the environmental sciences. In the second section I frame my proposed theoretical lens from which I will interpret the findings of the study of computational knowledge acquision._ 
+
 ## Workshops     
 
-This research proposes to situate itself within the classroom design study methodology. This methodology is appropriate as it would be difficult to authentically observe these students acquiring the computational skills necessary for their research. Additionally, the current research on the computational skills necessary for environmental science research is inadequate on specifying what subject matter is relevant for these disciplines, as well as what instructional methods are best suited for teaching these skills.  
+This research proposes to situate itself within a classroom design study methodology. This design study aims to systematically study the development of computational skills, in the context of environmental science research, while also designing a means by which to support the development of these computational skills. In a design study I am able to both investigate how to support students' learning of computational skills, while also developing, testing, and revising my conjectures about this learning process and how to best support it. 
 
-The interpretive framework that I am selecting focuses a student's learning based on the supports of a workshop tasks and tools, the nature of computational norms within each student's field, and the quality of a workshop's discourse around a computational skill. This focus is reinforced by the body of educational literature which suggests that student's reasoning is not an independent process, but is instead shaped by the settings of their learning, and by the collective practices they participate in while learning [@hall; @pozzi]. 
+This methodology is appropriate as it would be difficult to authentically observe these students acquiring the computational skills necessary for them to implement statistics in their research, as these skills are not necessarily acquired daily, monthly, or even yearly. Additionally, 
+small literature base on the computational skills necessary for environmental science research establishes broad areas of importance, but does not adequately specify what specific computational skills are relevant for these disciplines. Additionally, there is a dearth of literature on the instructional methods that are best suited for teaching these key computational skills, in the context of research in environmental science.  
 
-I will use the computational learning goals suggested by Hampton et al. [-@hampton]. These goals state that for data-intensive research in the environmental sciences, researchers should be able to   
+<!-- The interpretive framework that I am selecting focuses a student's learning based on the supports of a workshop tasks and tools, the nature of computational norms within each student's field, and the quality of a workshop's discourse around a computational skill. This focus is reinforced by the body of educational literature which suggests that student's reasoning is not an independent process, but is instead shaped by the settings of their learning, and by the collective practices they participate in while learning [@hall; @pozzi].  -->
+
+For this study I will use the broad, foundational knowledge skills suggested by Hampton et al. [-@hampton] to frame my workshops' learning goals. These foundational skills state that for data-intensive research in the environmental sciences, researchers should be able to   
 
 - work with messy or organized datasets, stored in varied data formats, in a reproducible workflow, 
 - employ a variety of statistical methods and simulation,
-- make use of basic software skills, and
+- make use of basic coding skills, and
 - create effective data visualizations [@hampton, p. 547].  
 
-Each arm of these computational abilities coincides with workshop currently implemented or in development to be administered through partnership with the Library. The current Introduction to `R` workshop gets researchers started on working with `R`, exploring the basics of: structure and organization of datasets, data summary techniques, and data visualization techniques. The current Intermediate `R` workshop guides researchers through the use of: conditional and relational statements for working with data, and looping and user-defined functions for repeated processes.  
+Each arm of these computational abilities coincides with a workshop currently implemented or in development to be administered through partnership with the Library. The current Introduction to `R` workshop gets researchers started on working with `R`, exploring the basics of: structure and organization of datasets, data summary techniques, and data visualization techniques. The current Intermediate `R` workshop guides researchers through the use of: conditional and relational statements for working with data, and looping and user-defined functions for repeated processes.  
 
-Based on the pilot study in Spring 2017 and the faculty interviews from Spring 2018, I created the starting points for computational abilities and computational expectations of environmental science researchers. In the interviews with graduate environmental science students in Stat 512, where they reasoned through applications of statistical computing, it became clear that these students had misconceptions of fundamental concepts for working with data in `R`. In the interviews with environmental science faculty, I questioned them about what computational skills they believe are necessary for students to successfully perform research in the environmental sciences. As expected, answers varied between fields of research, however, many faculty  emphasized students' ability to write their own functions, use conditional statements to process their data, looping and/or vectorization to automate their processes, database storage, and data manipulation.   
+Based on my pilot study in spring 2017 and faculty interviews I performed in spring 2018, I was able to create starting points for what computational skills to begin teaching in these workshops, and how to structure the instruction of these computing skills. In the interviews with graduate environmental science students in Stat 512, where they reasoned through applications of statistical computing, it became clear that these students had misconceptions of fundamental concepts for working with data in `R`. Select participants stated that the computational knowledge they left their statistics courses with, was hardly the foundational knowledge necessary for understanding basic code. These participants abilities to explain the higher-level computational concepts they used in their independent research and inability to explain foundational concepts in `R`, lead me to designing my workshops to teach computing skills from foundational concepts. 
 
-The theoretical framework that I base this study on is the necessity for teaching statistical computing concepts in the context of data. Teaching the concepts in context provides students with authentic experiences that help them to successfully apply these concepts to their future computational endeavors [dunlang, p. 98]. In this setting students are able to grapple with the frustration of solving computing applications, with the support of instructors, where their creativity is applauded. 
+In my interviews with environmental science faculty, I questioned them about what computational skills they believed are necessary for students to successfully perform research in the environmental sciences. As expected, answers varied between fields of research, however, many faculty  emphasized students' ability to write their own functions, use conditional statements to process their data, looping and/or vectorization to automate their processes, database storage, and data manipulation. These "key skills" outlined by the environmental science faculty serve as the initial computing skills to integrate into these workshops.    
 
-<!-- The observation methodology suggested by distributed cognition, requires that "if one is to talk to experts in a meaningful way about their interactions with structure in their environment, one must know what that structure is and how it may be organized" [@hutchins]. Additionally, Hutchins states that observers must also know that process that these students engage it and the resources they may use in order for their experiences to be meaningful. Knowledge of these tools provides new insight in the design of new meaningful tools, which account for the ways in which students coordinate their behavior with their environments.  -->
+<!-- The theoretical framework that I base this study on is the necessity for teaching statistical computing concepts in the context of data. Teaching the concepts in context provides students with authentic experiences that help them to successfully apply these concepts to their future computational endeavors [dunlang, p. 98]. In this setting students are able to grapple with the frustration of solving computing applications, with the support of instructors, where their creativity is applauded.  -->
 
 <!-- The generalizability of classroom design studies harks to the pragmatic nature of distributed cognition investigations. Observations under the theory of distributed cognition aid the investigator in discovering techniques in a certain setting that may be transferred to another. As new tools are designed, new structures and interactions are introduced into an individual's environment. The iterative process of "observation to theory to design and back" is an important cycle to research under the theory of distributed cognition.   -->  
 
 ## Longitudinal Interviews  
 
-Interviews from the cohort will be situated within the theoretical perspective of distributed cognition. As I am seeking to understand what computational skills are necessary for research in environmental science fields, I am assuming students are acquiring these skills through use of their social environment (as seen in the pilot study) and utilization of resources, such as coursework and online or written tools. This study does not attend to the structure of these resources and how students interact with them, instead focusing on what the critical components of these environments are and under what situations they use them.  
+The cohort of "control" and "intervention" environmental science graduate students, recruited in spring 2018 and spring 2019 will be interviewed, as outlined in Section 3. These interviews, will be situated within the theoretical lens of distributed cognition. As I am seeking to understand what computational skills are necessary for research in environmental science fields, I am assuming students are acquiring these skills through use of their social environment (as seen in the pilot study) and utilization of resources, such as coursework and online or written tools. This study does not attend to the structure of these resources and how students interact with them, instead focusing on what the critical components of these environments are and under what situations students use them.    
+
+<!-- The observation methodology suggested by distributed cognition, requires that "if one is to talk to experts in a meaningful way about their interactions with structure in their environment, one must know what that structure is and how it may be organized" [@hutchins]. Additionally, Hutchins states that observers must also know that process that these students engage it and the resources they may use in order for their experiences to be meaningful. Knowledge of these tools provides new insight in the design of new meaningful tools, which account for the ways in which students coordinate their behavior with their environments.  -->
+
 
 <!-------------------------------- DATA COLLECTION  ------------------------------------------->
-# Data Collection   
+# 3 Data Collection  
+
+_In this section I outline the data I propose to collect to address the research questions I have proposed. Each section contains the data I am planning to collect for each component of my study. The description of how the proposed data address my research goals is included in Section 4 (Data Analysis)._ 
+
 ## Workshops  
 
-The day prior to each workshop, the students, faculty, and staff that are registered are sent an email. This email requests that they complete the workshop pre-survey (Appendix), so that I am able to gauge everyone's backgrounds. During the workshop, applications of the computational concepts are given to participants for them to work through. Participants are requested to submit their answer to each of these questions during the workshop (through a Google Form). The day after each workshop, I send an email with any necessary information (e.g. `R` code from applications we did not get to), and a request for participants to complete a workshop post-survey (Appendix).
+The day prior to each workshop, the students, faculty, and staff that are registered are sent an email. This email requests that they complete the workshop pre-survey (Appendix), so that I am able to gauge everyone's area of study, computational background, why they are attending the workshop, and what they hope to get out of the workshop. During the workshop, applications of the computational concepts are given to participants for them to work through. Participants are requested to submit their answer to each of these questions during the workshop (through a Google Form). The day after each workshop, I send an email with any necessary information (e.g. `R` code from applications we did not get to), and a request for participants to complete a workshop post-survey (Appendix), which gauges their experiences with the workshop.  
 
+Workshop materials have been kept since their first implementation in fall 2017, however no recordings of the workshops were made during the 2017-2018 academic year. The Introduction to `R` and Intermediate `R` workshops were audio recorded, with one video recording of each workshop. I propose to create audio recordings for every workshop in spring and fall 2019. Video recordings could be considered, if the committee believes they would allow for a larger perspective on the workshop environment.  
 
-## Longitudinal Students 
+## Control Cohort 
 
-Interviews of the recruited cohort of environmental science students are aimed to take place twice a semester, namely early and late in the semester. Approximately one week prior to each interview, participants will be requested to submit their most recent code for their research. During the interview, participants will be questioned about the computational methods identified in their code, as to where they learned these computational methods.   
+The "control" cohort was recruited in spring of 2018 from the Statistics 511 courses. These students agreed to allow for me to follow them through their program of study, participating in interviews twice a semester. Approximately two weeks prior to each interview, participants will be requested to submit the most recent code they have generated for their research. During each interview, participants will be questioned about where they acquired the computational methods identified in their code. 
+
+## Intervention Cohort 
+
+I propose to recruit an "intervention" cohort in spring 2019 to follow one year through graduate their program. I intend to recruit these individuals from the first year environmental science graduate students enrolled in Statistics 511, and through contacts with the Ecology, LRES, Plant Sciences, and Animal Range Sciences Departments. These students will be required to participate in all four workshops (Introduction to `R`, Intermediate `R`, Data Visualization, Data Wrangling), agree to an interview prior to the first workshop, and interviews following each workshop. These students will then be followed through the fall of 2019, with the same protocol as the "control" cohort (code submissions & computational knowledge acquisition interviews). 
 
 ## Computational Courses  
 
-Observations and content analysis of courses taken by a large proportion of environmental science graduate students, which teach aspects of computing, will be carried out (e.g. Stat 511 & 512, PSPP 516, WILD 401 & 501). Materials from these courses will be solicited from the instructor or pulled from course websites.   
+Observations and content analysis of courses taken by a large proportion of environmental science graduate students, which teach aspects of computing, will be carried out (e.g. Stat 511 & 512, PSPP 516, WILD 401 & 501). Course materials, such as syllabi, labs, and online resources, from these courses will be solicited from the instructor or downloaded from course websites.   
 
+\pagebreak 
+
+## Data Collection Matrix 
+
+\begin{center}
+\begin{table}[h!]
+    \begin{tabular}{l | p{0.2\textwidth} | p{0.25\textwidth} | p{0.25\textwidth}}
+\bf{Research Question} & \bf{``Control`` Cohort} & \bf{``Intervention`` Cohort} & \bf{Computational Courses} \\ \hline
+RQ 1: Skills & Code for Research & Code for Research   & \begin{itemize} 
+                                                          \item Classroom Observations
+                                                          \item Course Materials 
+                                                          \end{itemize} \\[1em] \hline
+RQ 2: Pathways & Research Interview & Research Interview  & \begin{itemize} 
+                                                          \item Classroom Observations
+                                                          \item Course Materials 
+                                                          \end{itemize}  \\[1em] \hline
+RQ 3: Workshop Impact & NA &  \begin{itemize}
+                   \item Pre-interview
+                   \item Post-workshop interviews 
+                   \item Research interviews 
+                   \end{itemize}  & NA \\ \hline
+\end{tabular}
+\caption{Data collected to address research questions, for control and intervention cohorts and common computational courses.}
+\end{table}
+
+\vspace{0.5cm}
+
+\begin{table}[h!]
+    \begin{tabular}{l | p{0.3\textwidth} | p{0.3\textwidth} }
+\bf{Research Question} & \bf{\emph{All} Workshop Participants} & \bf{Workshop Design} \\ \hline
+RQ 1: Skills & ``What do you hope to learn from this workshop?" & \begin{itemize}
+                \item Demographics
+                \item Research Experience  
+                \item Backgrounds 
+                \item Post-workshop Survey     (Material, Instruction, Improvement, Strengths)
+                \end{itemize} \\[1em] \hline
+RQ 2: Pathways & ``Why did you choose to come to this workshop?"  & \begin{itemize}
+                \item Workshop Materials 
+                \item Audio \& Video Recordings
+                \item Post-workshop Survey (Environment, Strengths, Improvement, Recommendation)
+                \end{itemize} \\[1em] \hline
+RQ 3: Workshop Impact & "I feel prepared to implement the concepts from this workshop in my own research." & \begin{itemize}
+                \item Post-workshop Survey (Strengths, Improvement, Recommendation)
+                \end{itemize} \\[1em] \hline
+\end{tabular}
+\caption{Data collected to address research questions, for every workshop participant and every workshop facilitation.}
+\end{table}
+\end{center}
 
 <!-------------------------------- DATA ANALYSIS --------------------------------------------->
 
-# Data Analysis  
+# 4 Data Analysis  
+
+_In this section I outline how I plan to analyze the data I will collect, and how these data will answer my proposed research questions. The aim of this section is to explicitly outline how Tables 1 and 2 relate to my proposed study._ 
+
 ## Workshops  
 
-The pre-workshop surveys can be used when assessing the contingent aspects of each workshop. These surveys contain important background information that will aid in identifying what aspects of the workshop environment were potentially due to participants' backgrounds. Additionally, responses to "What do you hope to learn from this workshop?" can be used to inform the computational skills necessary for performing environmental science research. Responses to "Why did you choose to come to this workshop?" help to delineate participants seeking computational skills for their coursework from those seeking skills for their research. Lastly, "What resources have you used while learning to program in R?" helps to reinforce and identify the dominant resources participants are utilizing when acquiring computational skills. 
+The pre-workshop surveys can be used to assess the contingent aspects of each workshop. These surveys contain important background information that will aid in identifying what components of the workshop learning environment were potentially due to participants' backgrounds. Additionally, responses to "What do you hope to learn from this workshop?" can be used to inform research question 1, detailing the computational skills these participants feel are necessary for performing their (environmental science) research. Responses to "Why did you choose to come to this workshop?" help to delineate participants seeking computational skills for their coursework from those seeking skills for their research, as well as outline participants who are using the workshops as a resource for their research. Lastly, "What resources have you used while learning to program in R?" can help in identifying and reinforcing the dominant themes of pathways for computational knowledge acquisition, found in the control and intervention cohort interviews. 
  
-The submissions for each application of computational concepts helps to outline any misunderstandings students are having when independently coding. These misunderstandings can be used to inform restructuring of the workshop, to facilitate more concrete understandings of these concepts prior to the applications. Finally, the post-workshop survey will provide guidance on both the environment of the workshop (number of facilitators, structure and location of workshop) and the structure of the workshop (material presented in an understandable way, confidence in implementation in research). Directly asking participant "What did you get out of this workshop?" highlights the aspects of the workshop that were successful for each participant, which can be used to note any aspects that could use improvement. Lastly, asking participants "What (content) changes would you recommend for this workshop?" reinforces the computational skills these participants heave deemed necessary for their research. 
+The submissions for each application of computational concepts help to outline any misunderstandings students are having when independently coding. These misunderstandings can be used to inform restructuring of the workshop, and to revise my proposed learning trajectory of computational skills. Finally, the post-workshop survey will provide guidance on both the environment of the workshop (number of facilitators, structure and location of workshop) and the structure of the workshop (material presented in an understandable way, confidence in implementation in research). Directly asking participant "What did you get out of this workshop?" highlights the aspects of the workshop that were successful for each participant, which can be used to note any aspects that could use improvement. Lastly, asking participants "What changes would you recommend for this workshop?", helps to revise workshop structure, content, and learning environment. 
 
-## Longitudinal Students 
+The changes to the workshops suggested by the assessments and post-workshop survey can be reinforced by the audio (and video) recordings of the sessions. These recordings can help to document the evolving workshop learning environment. 
 
-This study seeks to investigate the evolving nature of users' computational tasks, their history of computational tasks, and their relationship with other information sharing resources (peers, consultants, advisers, courses, online resources, etc.). The historical comparison of computational abilities over time provides rich information about evolving nature of these skills, and the resources students employ throughout their research experiences.     
+## Control Cohort  
 
-At every interview, I will have the ability to track each student's research code. The first submission of research code will be inspected to identify the computational skills demonstrated by each student. These will be identified as skills pertaining to each of the four learning goals outlined in the workshop learning goals (working with data of a variety of formats, employing a variety of statistical methods, basic software skills, and effective data visualizations). Each subsequent submission of research code will be inspected to identify any new computational skills employed. During the interview, participants will be asked where they learned each of these computational skills. The interviews will be transcribed and open-coded to feature the dominant resources these students are employing in their acquisition of the computational skills necessary for their research.  
+This aspect of the study seeks to investigate the evolving nature of graduate students' computational tasks, the history of their computational tasks, and their relationship with other information-sharing resources (peers, consultants, advisers, courses, online resources, etc.). The historical comparison of computational abilities over time provides rich information about the evolving nature of these skills, and the resources students employ throughout their research experiences.   
+
+For the "control" cohort, I will have the ability to track each student's research code from each interview to the next. The first submission of research code will be inspected to identify the computational skills demonstrated by each student. These will be identified as skills pertaining to each of the four broad areas of learning goals outlined in the workshop learning goals (working with data of a variety of formats, employing a variety of statistical methods, basic software skills, and effective data visualizations). Each subsequent submission of research code will be inspected to identify any new computational skills employed. 
+
+During the interview, participants will be asked where they learned each of the computational skills identified in their research code, and their experiences employing these resources. The interviews will be open-coded to feature the dominant resources these students are utilizing in their acquisition of the computational skills necessary for their research, along with their justifications for employing these resources.  
+
+## Intervention Cohort   
+
+The pre-workshop interview for the intervention cohort will act as a "baseline" to outline their backgrounds, computational experiences, and current working computational knowledge. Similar to the workshop design study, this will allow for me to both separate the contingent aspects of a student's learning from the necessary aspects, and track the development of each students' reasoning during the study. Following each workshop, I propose to interview each participant to detail the aspects of the workshop environment that helped promote learning, and outline how each successive form of their reasoning emerged as a reorganization of prior reasoning (e.g. how their understanding of material learned in the workshop build off of itself and/or other workshops). These interviews will allow me to test and improve my envisioned learning trajectory of how these computational understandings relate and build off of one another. 
+
+These students will then be followed through the fall of 2019, with the same protocol as the "control" cohort (code submissions & computational knowledge acquisition). The collection of research code and interviews, similar to the "control" cohort, allows for a comparison of the dominant resources these students are utilizing in their acquisition of the computational skills necessary for their research with that of their "control" counterparts. This comparison addresses the third proposed research question.  
 
 ## Computational Courses  
 
-Course observations will take place at the consent of the instructor, and are intended to identify the culture of the classroom and the classroom discourse surrounding the learning of computational skills. The analysis of each course's materials will be used to compare the computational understandings taught across different course instructors (Stat 511), and to outline what computational concepts are taught and the context in which they are taught. 
+Course observations will take place at the consent of the instructor, and are intended to identify the culture of the classroom and the classroom discourse surrounding the learning of computational skills. The analysis of each course's materials will be used to compare the computational understandings taught across different course instructors (Stat 511), and to outline what computational concepts are taught, and the context in which they are taught. 
 
 
 <!-------------------------------- STUDY AIMS ------------------------------------------>
 
-# Study Aims
+# 5 Study Aims
 
-The aims of this study is to develop publicly available resources for data-intensive research in the environmental sciences. Developing introductory and intermediate workshops with low barriers to entry, is of the utmost importance for the computational expectations of today's environmental science researchers. The dearth of resources available for learning skills for statistical computing assume that researchers posses a basic understanding software skills, which many researcher do not. The workshops created for this study aid in constructing these vital understandings of software skills, so that a broader array of resources are accessible to researchers. 
+Outlining the key computational skills necessary for successful implementation of statistics to research in environmental science fields and the paths students employ when faced with computational challenges for their research, directly benefits the field of environmental science. These findings help to emphasize the importance of core skills for data-intensive environmental science research, helping to "facilitate the integration of training into the university" [@hampton, p. 555].  
 
-Outlining the key computational skills necessary for successful implementation of statistics to research in environmental science fields, helps to guide Statistics and environmental science faculty in better integrating these skills into the curriculum. Materials for the workshops, which address these key computational skills can be used by faculty, to pool resources for teaching computing, so that the materials are available in formats that can be quickly adapted and customized.   
+The workshop materials developed through this research will be publicly available through the Montana State University Library. The creation of these materials adds resources into these graduate students' environment, which help to enhance their learning of these core computational skills necessary for environmental science research. Importantly, these workshops have no barriers to entry, unlike the large amount of online resources that require a basic understanding of how to program in `R`. Additionally, each workshop builds off of the prior workshop(s), allowing researchers to have a guided progression through the computational skills necessary for environmental science research. 
+
+Finally, these workshops can help to guide Statistics and environmental science faculty in better integrating these skills into the curriculum. Materials for the workshops, which address these key computational skills, can be used by university faculty to pool resources for teaching computing. These materials are available in formats that can be quickly adapted and customized to the context of each instructor's course.   
 
 \pagebreak 
 
-# Timeline of Research Study  
+# 6 Timeline of Research Study  
 
 \begin{center}
     \begin{tabular}{l | p{0.8\textwidth}}
     \bf{Semester} & \bf{Project(s)}  \\ \hline
     Spring 2017  & \begin{itemize}
-                   \item environmental science graduate students in Statistics 512 were interviewed
+                   \item Environmental science graduate students in Statistics 512 were interviewed
                    \end{itemize} \\ \hline
     Spring 2018  &  \begin{itemize} 
                     \item Introduction to R \& Intermediate R were advertised broadly to graduate environmental science students, through partnership with Library, with pre- and post-surveys administered \vspace{0.2cm}
-                    \item environmental science faculty were interviewed about computational expectations \vspace{0.2cm}
-                    \item environmental science graduate students in Statistics 511 were recruited for longitudinal study 
+                    \item Environmental science faculty were interviewed about computational expectations \vspace{0.2cm}
+                    \item Environmental science graduate students in Statistics 511 were recruited for longitudinal study 
                     \end{itemize} \\ \hline  
     Fall 2018    &  \begin{itemize} 
                     \item Introduction to R \& Intermediate R revised and advertised broadly to graduate   environmental science students, through partnership with Library \vspace{0.2cm}  
