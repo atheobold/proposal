@@ -1,0 +1,9 @@
+---
+title: "Abstract"
+author: "Allison Theobold"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Modern environmental science research increasingly requires a substantial amount of computational ability to effectively execute statistical applications, but graduate students typically lack these integral skills. Consequently, many of these environmental science graduate degree programs expect graduate students to acquire these computational skills in an applied statistics course. However, a gap remains between the computational skills required for research in these fields and those taught in statistics courses. In this presentation I will discuss the results of a pilot study, which investigated the strategies and experiences of environmental science graduate students in acquiring the computational skills required to perform applications of statistics in their research. These results, along with interviews of environmental science faculty, will be used to outline a proposed workshop design study. This study will investigate the computational expectations of graduate environmental science researchers, effective methods of instruction for these necessary statistical computing concepts, and how these workshops help to alleviate the gap between statistical computing preparation and expectations of these students. 
