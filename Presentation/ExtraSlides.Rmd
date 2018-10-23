@@ -14,24 +14,26 @@ header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepac
 
 ## Does Computing Belong in Statistics?  
 
-- Despite the urgings of the discipline to incorporate comupting into the curriculum, members of the discipline remain skeptical of the reformation of statistics curriclum.  
+- Despite the urging of the discipline to incorporate computing into the curriculum, members of the discipline remain skeptical of the reformation of statistics curriculum.  
 
 - Moore (1997) cautioned statisticians to remember that we are "teaching our subject and not the tool" (p. 135). 
 - De Veaux & Vellman (2015) suggest that we "should not allow debates about methods to distract us from teaching a holistic understanding of what statisticians actually do."    
 
-- However, many practicioners argue that we should give our students the skills needed to "dive into the ocean." Wickam states that "we cannot be paralyzed by the potential dangers, as students will go swimming with or without us, and all we can do is prepare them as best we are able" (Wickam, 2015).  
+- However, many practitioners argue that we should give our students the skills needed to "dive into the ocean." 
+    * "We cannot be paralyzed by the potential dangers, as students will go swimming with or without us, and all we can do is prepare them as best we are able" (Wickam, 2015).  
 
 ## Faculty Preparation 
 
-- How do we prepare current faculty, the  vast majority of whom were taught in the probabilistic culture to develop courses that teach skills from both cultures?" (Peck, Chance, Rossman, 2015)S. 
+- "How do we prepare current faculty, the vast majority of whom were taught in the probabilistic culture, to develop courses that teach skills from both cultures?" (Peck, Chance, Rossman, 2015). 
 
-- Our community needs to engage seriously in the preparation of teachers, not just through hosting workshops, but through changing teacher preparation at the undergraduate, graduate, and credentialing levels. Both science and math teachers are, with some exceptions, frightfully unprepared to teach students to engage meaningfully with data (Gould, 2015).  
+- Our community needs to engage seriously in the preparation of teachers, not just through hosting workshops, but through changing teacher preparation at the undergraduate, graduate, and credentialing levels. 
+    * Both science and math teachers are, with some exceptions, frightfully unprepared to teach students to engage meaningfully with data (Gould, 2015).  
 
 ## Faculty Preparation (continued)  
 
-- One challenge to the success of this sea change is that statisticians often have not been taught computing formally, they have not had the opportunity to learn it well, and feel they cannot teach it effectively and so the cycle persists.  
-
-- This is very unfortunate as it means that new students do not have the opportunity to learn it well either. Furthermore, computing has become so much more important in the statistics field than even five years ago that a "just enough" level of understanding of computing is not adequate.  
+- One challenge to the success of this change is that statisticians often have not been taught computing formally, they have not had the opportunity to learn it well, and feel they cannot teach it effectively, and so the cycle persists.  
+    * This is very unfortunate as it means that new students do not have the opportunity to learn it well either. 
+    * Computing has become so much more important in the statistics field and a "just enough" level of understanding of computing is not adequate.  
 
 
 ## Tenants of Distributed Cognition  
@@ -71,7 +73,18 @@ knitr::include_graphics("figures/SpiralBlooms.jpg")
 
 - Places the study in a larger theoretical context, as a case of supporting students' development of the statistical computing skills necessary for research.
     * Discovery of fundamental computing skills required.
-    * Understanding of effective teaching techniques to promote learning of these skills.
+    * Understanding of effective teaching techniques to promote the learning of these skills.
 
 - Create a "humble theory," upon which generalizations could potentially be based.
 
+## Workshops Analytical Model  
+
+| Stage                               | Time Period           |  
+|:----------------------------------: |:---------------------:|  
+| Memo & Reflection                   | day of workshop       | 
+| Attentively view video data         | week of workshop      |
+| Identifying critical events         | week of workshop      | 
+| Transcribing                        | April 2019            | 
+| Coding                              | May - June 2019       |
+| Constructing storyline              | July - August 2019    |  
+| Composing narrative                 | Fall 2019             | 

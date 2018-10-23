@@ -318,6 +318,8 @@ knitr::include_graphics("figures/workshops.jpg")
 - Additionally, participants are asked to:  
     * provide responses to "hands-on" applications of computational tasks
     * evaluate workshop effectiveness  
+
+- Workshops will be video recorded.  
     
 
 ## (Intervention) Workshop Data Collection  
@@ -331,7 +333,7 @@ knitr::include_graphics("figures/workshops.jpg")
 
 ## Analytical Framework (Computing Skills)  
 
-- Interviews with "control" cohort will be transcribed, and descriptive coding will be implemented to detail  
+- Interviews with "control" cohort will be open coded to detail  
     * the computing skills participants employed to use statistics in their research    
     * how they acquired their knowledge of these computational skills    
     
@@ -341,7 +343,7 @@ knitr::include_graphics("figures/workshops.jpg")
     * instructional context used  
     
     
-- Course observations will be transcribed to analyze 
+- Course observations will be analyzed to describe  
     * nature of classroom discourse     
     * pedagogical methods of instruction 
 
@@ -351,7 +353,7 @@ knitr::include_graphics("figures/workshops.jpg")
     * changes in workshop materials and the learning environment that evolved over the duration of the study
     * how these changes supported students' development of successive forms of reasoning
     
-- Interviews with "intervention" cohort will be open coded to detail  
+- Workshop recordings and interviews with "intervention" cohort will be open coded to detail  
       * how successive forms of reasoning emerged as a reorganization of prior reasoning
       * aspects of the workshop environment that helped promote learning
       
