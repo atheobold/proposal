@@ -36,6 +36,26 @@ header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepac
     * Computing has become so much more important in the statistics field and a "just enough" level of understanding of computing is not adequate.  
 
 
+## What Do We Teach
+
+- __Learning Outcomes__:
+    * demonstrate a basic understanding of using statistical software to perform data analysis
+    * demonstrate a basic understanding of using computer software to investigate statistical concepts through simulation
+    
+## Not Consistent Across Semesters 
+
+- __Learning Outcomes for Lab__: 
+    * Write code compliant with style conventions, with annotation 
+    * Use basic logic (&, |, ifelse, !, etc.) and indexing  
+    * Write for-loops, while statements, and with statements  
+    * Identify processes that can be broken off into discrete functions  
+    * Design and write functions, including appropriate tests  
+    * Test for and correct simple bugs in a for-loop or function  
+    * Conduct basic data aggregation and cleaning 
+    * Design and construct effective data visualizations  
+    * Conduct all statistical analyses presented in lecture
+
+ 
 ## Tenants of Distributed Cognition  
 
 - Cognitive processes involve trajectories of information, the patterns of these trajectories reflects some underlying cognitive architecture. 

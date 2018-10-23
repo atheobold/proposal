@@ -187,7 +187,7 @@ The `R` functions you saw in your courses require for your data to be in long fo
 
 ## Pilot Study (Spring 2017)     
 
-- In my pilot study we asked environmental science graduate students to complete applications of statistical computing, in the context of ecological data.  
+- In my pilot study I asked environmental science graduate students to complete applications of statistical computing, in the context of ecological data.  
 
 ```{r, out.width = "600px", echo = FALSE, fig.align='center'}
 knitr::include_graphics("figures/PilotQuestions.jpg")
@@ -302,9 +302,6 @@ knitr::include_graphics("figures/workshops.jpg")
     * Code generated for research practices. 
     * Interviews on acquisition of computational skills. 
 
-<!-- (what methods are necessary in a variety of fields) -->
-<!-- (what skills are needed for data-intensive research) --> 
-
 - Observations of common environmental science courses which teach computing (e.g. WILD 401, PSPP 516). 
     * Collection of associated course materials (syllabi, labs, online resources). 
 
@@ -391,10 +388,117 @@ knitr::include_graphics("figures/workshops.jpg")
 ## References  
 
 ```{r, out.width = "100px", echo = FALSE, fig.align='center'}
-knitr::include_graphics("RPubs.jpg")
+knitr::include_graphics("figures/RPubs.jpg")
 
 ```
 
 http://rpubs.com/atheobold/proposal
 
+## 
 
+## Does Computing Belong in Statistics?  
+
+- Despite the urging of the discipline to incorporate computing into the curriculum, members of the discipline remain skeptical of the reformation of statistics curriculum.  
+
+- Moore (1997) cautioned statisticians to remember that we are "teaching our subject and not the tool" (p. 135). 
+- De Veaux & Vellman (2015) suggest that we "should not allow debates about methods to distract us from teaching a holistic understanding of what statisticians actually do."    
+
+- However, many practitioners argue that we should give our students the skills needed to "dive into the ocean." 
+    * "We cannot be paralyzed by the potential dangers, as students will go swimming with or without us, and all we can do is prepare them as best we are able" (Wickam, 2015).  
+
+## Faculty Preparation 
+
+- "How do we prepare current faculty, the vast majority of whom were taught in the probabilistic culture, to develop courses that teach skills from both cultures?" (Peck, Chance, Rossman, 2015). 
+
+- Our community needs to engage seriously in the preparation of teachers, not just through hosting workshops, but through changing teacher preparation at the undergraduate, graduate, and credentialing levels. 
+    * Both science and math teachers are, with some exceptions, frightfully unprepared to teach students to engage meaningfully with data (Gould, 2015).  
+
+## Faculty Preparation (continued)  
+
+- One challenge to the success of this change is that statisticians often have not been taught computing formally, they have not had the opportunity to learn it well, and feel they cannot teach it effectively, and so the cycle persists.  
+    * This is very unfortunate as it means that new students do not have the opportunity to learn it well either. 
+    * Computing has become so much more important in the statistics field and a "just enough" level of understanding of computing is not adequate.  
+
+
+## What Do We Teach
+
+- __Learning Outcomes__:
+    * demonstrate a basic understanding of using statistical software to perform data analysis
+    * demonstrate a basic understanding of using computer software to investigate statistical concepts through simulation
+
+- __Course Goals__:  
+    * translate the output from statistical software into appropriate and meaningful results 
+
+<!-- - __Course Policies__:   -->
+<!--     * Classes will consist of lecture, discussion, computer examples, and problem solving.   -->
+<!--     * I reserve the right to meet outside of class if questions are related to prerequisite material or basic `R` code. 
+         *  Lab will be held on every Wednesday to provide you an opportunity to become more familiar with `R`. 
+         * Lab time will primarily focus on the fundamentals of `R`.  -->
+
+    
+## Not Consistent Across Semesters 
+
+- __Learning Outcomes for Lab__: 
+    * Write code compliant with style conventions, with annotation 
+    * Use basic logic (&, |, ifelse, !, etc.) and indexing  
+    * Write for-loops, while statements, and with statements  
+    * Identify processes that can be broken off into discrete functions  
+    * Design and write functions, including appropriate tests  
+    * Test for and correct simple bugs in a for-loop or function  
+    * Conduct basic data aggregation and cleaning 
+    * Design and construct effective data visualizations  
+    * Conduct all statistical analyses presented in lecture
+
+ 
+## Tenants of Distributed Cognition  
+
+- Cognitive processes involve trajectories of information, the patterns of these trajectories reflects some underlying cognitive architecture. 
+
+-  The organization of mind, both in development and in operation, is an emergent property of interactions among internal and external resources. 
+
+- The study of cognition is not separable from the study of culture, because agents live in complex cultural environments. (Hollan, Hutchins, & Kirsh, 2000).    
+
+
+## Connection to Distributed Cognition
+
+- No method other than observation can illuminate "what matters" in a setting.
+
+- As the design process creates new tools for individuals, it adds new cognitive interactions to the study.
+    * Iterative process of observation to theory to design suggested for research in distributed cognition.
+
+
+## Spiralizing Bloom's Taxonomy  
+
+```{r, out.width = "400px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/SpiralBlooms.jpg")
+```
+
+- The spiral approach sees "each round as thoroughly learning some new piece of information which is then used as a basis for the next round in the topic" (Fuller et al., 2007).  
+
+## Interpretive Framework
+
+-	We are focusing on workshop tasks and tools, the nature of field norms, and the quality of workshop discourse as potential supports for student learning.
+
+- Forms of computational reasoning adults develop are shaped by
+    * the settings of their learning
+    * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).
+
+## Theoretical Context
+
+- Places the study in a larger theoretical context, as a case of supporting students' development of the statistical computing skills necessary for research.
+    * Discovery of fundamental computing skills required.
+    * Understanding of effective teaching techniques to promote the learning of these skills.
+
+- Create a "humble theory," upon which generalizations could potentially be based.
+
+## Workshops Analytical Model  
+
+| Stage                               | Time Period           |  
+|:----------------------------------: |:---------------------:|  
+| Memo & Reflection                   | day of workshop       | 
+| Attentively view video data         | week of workshop      |
+| Identifying critical events         | week of workshop      | 
+| Transcribing                        | April 2019            | 
+| Coding                              | May - June 2019       |
+| Constructing storyline              | July - August 2019    |  
+| Composing narrative                 | Fall 2019             | 
