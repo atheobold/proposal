@@ -302,7 +302,7 @@ knitr::include_graphics("figures/workshops.jpg")
     * Code generated for research practices. 
     * Interviews on acquisition of computational skills. 
 
-- Observations of common environmental science courses which teach computing (e.g. WILD 401, PSPP 516). 
+- Observations of common environmental science courses which teach computing (e.g. STAT 511, WILD 401, PSPP 516). 
     * Collection of associated course materials (syllabi, labs, online resources). 
 
 ## (Holistic) Workshop Data Collection  
@@ -310,7 +310,8 @@ knitr::include_graphics("figures/workshops.jpg")
 - Prior to the workshop, participants are surveyed for: 
     * demographic information
     * what they expect and want to learn 
-    * what resources they have used to learn statistical computing
+    * what resources they have used to learn statistical computing  
+    * baseline knowledge    
     
 - Additionally, participants are asked to:  
     * provide responses to "hands-on" applications of computational tasks
@@ -324,15 +325,15 @@ knitr::include_graphics("figures/workshops.jpg")
 - An "intervention" cohort of first year graduate students will be recruited in spring 2019. 
     * Attend all four workshops in spring 2019.
     * Interview prior to first workshop, for baseline computational knowledge. 
-    * Interview following each workshop, to evaluate workshop environment, content, and student learning. 
+    * Interview following each workshop, to evaluate workshop environment, content, and map student learning. 
     * Collect and analyze the code generated for research practices. 
     * Interviews to investigate acquisition of computational skills.  
 
 ## Analytical Framework (Computing Skills)  
 
-- Interviews with "control" cohort will be open coded to detail  
-    * the computing skills participants employed to use statistics in their research    
-    * how they acquired their knowledge of these computational skills    
+- Code generated for research for both cohorts will be coded to detail  
+    * skills used within each key area     
+    * sophistication of these skills   
     
     
 - Course materials will be analyzed to isolate  
@@ -352,14 +353,9 @@ knitr::include_graphics("figures/workshops.jpg")
     
 - Workshop recordings and interviews with "intervention" cohort will be open coded to detail  
       * how successive forms of reasoning emerged as a reorganization of prior reasoning
-      * aspects of the workshop environment that helped promote learning
+      * aspects of the workshop environment that helped promote learning  
+      * how workshops impacted students' prearation for computing in their research   
       
-<!-- testing and revising conjectures about both students' prospective learning processes and the specific means of supporting them -->
-    
-<!-- - Following each workshop session, debriefing meetings with the researchers and assistants will be held.  -->
-
-<!-- -	Revised learning trajectory for the study, will be created at the close of each semester's workshops.  -->
-
 ## Benefits to Environmental Science Research    
 
 - Outline key computational skills necessary for successful implementation of statistics to research in the environmental sciences.   
