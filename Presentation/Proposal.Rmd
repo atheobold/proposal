@@ -1,7 +1,7 @@
 ---
 title: "Supporting Data-Intensive Research in the Environmental Sciences"
 author: 'Advisor: Dr. Stacey Hancock'
-date: "October 10, 2018"
+date: "October 26, 2018"
 output:
   ioslides_presentation:
     fig_height: 5
@@ -98,7 +98,7 @@ The `R` functions you saw in your courses require for your data to be in long fo
 
 - Changing practice of environmental science has changed, because of growth in computational power and the volume and variety of available data. 
 
-- Statistical approaches that rely on computation, such as big data management, dynamic data visualization, and simulation based analyses, have become essential understandings for field applications (Weintrop et al., 2016). 
+<!-- - Statistical approaches that rely on computation, such as big data management, dynamic data visualization, and simulation based analyses, have become essential understandings for field applications (Weintrop et al., 2016).  -->
 
 - These advances have created a growing need for scientists to receive an appropriate education in computational methods and techniques relevant to their discipline.  
 
@@ -163,19 +163,17 @@ The `R` functions you saw in your courses require for your data to be in long fo
 <!-- * Includes interactions between individuals.  -->
 <!-- * Incorporates resources and materials into an individual's environment.   -->
     
-
 <!-- - These resources are shared socially to extend an individual's ability to accomplish something that they otherwise could not achieve alone.    -->
 
-## Beliefs of Distributed Cognition  
+<!-- ## Beliefs of Distributed Cognition   -->
 
-- Individuals coordinate different types of structure in their environment. 
+<!-- - Individuals coordinate different types of structure in their environment.  -->
 
-- Coordinating these different structures requires effort.  
+<!-- - Coordinating these different structures requires effort.   -->
 
-- Individuals off-load tasks with high cognitive effort to their environment, whenever possible.  
+<!-- - Individuals off-load tasks with high cognitive effort to their environment, whenever possible.   -->
 
-- Dynamics of cognitive load-balancing are available through social organizations.  
-
+<!-- - Dynamics of cognitive load-balancing are available through social organizations.   -->
 
 ## Research Questions  
 
@@ -215,7 +213,7 @@ knitr::include_graphics("figures/Path.jpg")
     * _"I had to learn the R first and then I could look back at the code and understand what was going on."_
 
 
-- Understandings informed by a student's independent research, were described largely as high-level concepts. 
+- Understandings informed by a student's independent research, were described largely as "high-level"" concepts. 
     * _"The data management stuff comes from independent research, trial and error, getting myself through."_    
   
 \vspace{2cm}
@@ -236,9 +234,9 @@ knitr::include_graphics("figures/Trajectory2.jpg")
 
 -	Systematically study the development of computational skills, in the context of environmental science research.  
 
-- Including the design of a means by which to support the development of these computational skills. 
-    * investigate how to support this learning 
-    * develop, test, and revise conjectures about the learning process and how to support that learning 
+- Designing a means by which to support the development of these computational skills. 
+    * Investigate how to support this learning. 
+    * Develop, test, and revise conjectures about the learning process and how to support that learning. 
 
 \vspace{1cm}
 
@@ -332,8 +330,8 @@ knitr::include_graphics("figures/workshops.jpg")
 ## Analytical Framework (Computing Skills)  
 
 - Code generated for research for both cohorts will be coded to detail  
-    * skills used within each key area     
-    * sophistication of these skills   
+    * skills used within each key area     <!-- * sophistication of these skills  -->
+    * progression of skills over time  
     
     
 - Course materials will be analyzed to isolate  
@@ -348,19 +346,19 @@ knitr::include_graphics("figures/workshops.jpg")
 ## Analytical Framework (Workshops)  
 
 - Workshop materials will be kept from their first implementation (fall 2017), to identify 
-    * changes in workshop materials and the learning environment that evolved over the duration of the study
+    * evolution of workshop materials and learning environment over the duration of the study
     * how these changes supported students' development of successive forms of reasoning
     
 - Workshop recordings and interviews with "intervention" cohort will be open coded to detail  
       * how successive forms of reasoning emerged as a reorganization of prior reasoning
       * aspects of the workshop environment that helped promote learning  
-      * how workshops impacted students' prearation for computing in their research   
+      * how workshops impacted students' preparation for statistical computing in their research   
       
 ## Benefits to Environmental Science Research    
 
 - Outline key computational skills necessary for successful implementation of statistics to research in the environmental sciences.   
 
-- Detail the paths that students are employing when faced with computational challenges for their research.  
+- Detail the paths that students employ when faced with computational challenges for their research.  
 
 - Understanding the importance of core skills for data-intensive environmental science research will help "facilitate the integration of training into the university" (Hampton et al., 2015, p. 555).    
 
@@ -369,17 +367,24 @@ knitr::include_graphics("figures/workshops.jpg")
 
 - The materials developed through these workshops will be publicly available. 
 
-- Create new resources to enhance students' learning of core computational skills, necessary for environmental science research. 
+- Create new resources to enhance students' learning of core computational skills. 
 
-- Introductory workshops have no barriers to entry. 
+- Introductory workshops have no barriers to entry.  
+
+- Workshops build off of knowledge acquired in previous workshops, without additional knowledge expectations. 
 
 ## Benefits to Curriculum 
 
-- The pace of technological development can demand that workshops thrive outside of university curricula. 
-    * Capable of adapting materials rapidly, following computational and disciplinary changes. 
-
 - Help to ease transition to integrating computing into the environmental science and Statistics curricula.  
-    * Pooling of resources, so that the materials are available in formats that can be quickly adapted and customized.   
+    * Pooling of resources. 
+    * Materials are available in formats which can be quickly adapted and customized. 
+
+## Many Thanks  
+
+- Stacey Hancock   
+- Megan Wickstrom & Mary Alice  
+- Jenny Green, Laura Hildreth, Megan Higgs, Beth Burroughs
+- Workshop Facilitators! 
 
 ## References  
 
@@ -390,7 +395,10 @@ knitr::include_graphics("figures/RPubs.jpg")
 
 http://rpubs.com/atheobold/proposal
 
+# Questions?  
+
 ## 
+
 
 ## Does Computing Belong in Statistics?  
 

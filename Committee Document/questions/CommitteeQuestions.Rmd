@@ -10,30 +10,54 @@ The following are lingering questions that I have been considering as I reason t
 \vspace{0.2cm}
 
 __1. How should I position my interpretive framework for the workshop design study?__     
+
 - I believe that the focus of each workshop is related to:  
+    * applications of the computing tools to field related tasks  
+    * the nature of field norms (computing within a discipline)  
+    * workshop discourse around computational concepts    
 
-  * applications of the computing tools to field related tasks    
-  * the nature of field norms (computing within a discipline)  
-  * workshop discourse around computational concepts  
+\vspace{0.5cm}
 
-<!-- - Forms of computational reasoning adults develop are shaped by  -->
-<!--     * the settings of their learning  -->
-<!--     * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).   -->
- 
-\vspace{0.2cm}  
+- Forms of computational reasoning adults develop are shaped by
+    * the settings of their learning  
+    * by the collective practices they participate in while learning (Hall, 2001; Hoyles, Noss, Pozzi, 2001).    
+
+\vspace{0.5cm}
+
+- Does a design study have two aims?  
+    * (1) understand learning trajectory of *individual* learners   
+    * (2) understand the learning environment that aids in student knowledge acquisition    
+
+\vspace{0.5cm}
+
+- Can my interpretive framework change base on the perspective I am taking (individual vs. group)? Or does the individual component lie in the background of a design study? 
+
+\vspace{0.5cm}  
 
 __2. What should the units of analysis be for the workshops? Individuals? Groups? The entire workshop?__   
+
 - In interviewing *individuals* about their workshop experiences am I focusing on the individual? Can this also catch a "glimpse" at group and/or workshop dynamics?  
- 
-\vspace{0.2cm}
+    * Should I probe individuals about specific excerpts of the video recording to understand the environment?  
+    * Are the survey questions sufficiently capturing the non-group work aspects of the workshops?
+    
+\vspace{0.5cm}
 
 __3. Should the workshops be audio or video recorded?__   
-- Would recording the workshops allow me to properly describe the changes in workshop environment? 
+
+- Would recording the workshops allow me to properly describe the workshop environment? 
+    * I believe this would allow for me to better justify workshop changes that impacted this environment.  
+    * Video recordings can capture "rich behavior and complex interactions and it allows for investigators to re-examine data again and again" (Clement, 2000).   
+    * Enhances what I possibly can capture in an observational study, by capturing "moment-by-moment unfolding, subtle nuances in speech and non-verbal behavior" (Martin, 1999).   
+
+\pagebreak
+
+__4. Will a pre-workshop "diagnostic" interview and post-workshop interviews suffice for tracking the "intervention" group's computational knowledge?__  
 
 \vspace{0.2cm}
 
-__4. Will a pre-workshop "diagnostic" interview and post-workshop interviews suffice for tracking the "intervention" group's computational knowledge?__  
-- Hutchins advocates for "diagnostic assessments to help track development of the participating students' reasoning during the study". 
+- Hutchins advocates for "diagnostic assessments to help track development of the participating students' reasoning during the study."  
+    * Do the diagnostic assessments and the post-workshop interview question (Learning #3) give me an understanding of what knowledge students have coming in?  
+    * Do the post-workshop interview questions (Learning) allow for me to re-evaluate my proposed learning trajectory?  
 
 \vspace{0.2cm}
 
@@ -41,17 +65,69 @@ __5. If I am to analyze what transpired during each workshop, in order to plan f
 
 \vspace{0.2cm}
 
+| Stage                               | Time Period                   |  
+|:----------------------------------: |:-----------------------------:|  
+| Memo & reflection                   | day of workshop               |
+| Debrief with facilitators           | 2-3 days post-workshop        | 
+| View video data                     | within 1 week of workshop     |
+| Identify critical events            | within 1 week of workshop     | 
+| Interview cohort about workshop     | 2 weeks post-workshop         |   
+| Make modifications to workshop      | 2 weeks post-workshop         | 
+| Repeat workshop a second time       |                               |   
+
+
+| Retrospective Analysis              | Time Period           |
+|:----------------------------------: |:---------------------:|
+| Transcribe Critical Events          | April 2019            | 
+| Code Critical Events                | May - June 2019       |
+| Constructing storyline              | July - August 2019    |  
+| Composing narrative                 | Fall 2019             | 
+
+\vspace{0.2cm}
+
 __6. In my retrospective analysis I need to have the ability to, (1) detail "how each successive form of reasoning emerged as a reorganization of prior forms of reasoning," and (2) identify "the aspects of the workshop learning environment that supported the students' development of these successive forms of reasoning" (Hutchins, 2017). Does my current proposed data collection allow for me to detail and identify these aspects of the workshops?__  
 
 \vspace{0.2cm}
 
-__7. The argumentative grammar for design studies, outlined by Hutchins, states that I need to have the ability to convince others that "the students would not have developed the documented forms of computational skills but for their participation in the design study." Does this warrent the comparison of the results for RQ2 between the "control" and "intervention" cohorts?__ 
+| Successive Forms of Reasoning - Data Collected              |
+|:-----------------------------------------------------------:|
+| Pre-workshop Concept Questions                              |
+| Students' Responses to Applications in Workshop             |  
+| Video Recording of Workshop - Student Questions & Responses |
+| Cohort Interviews - Baseline & Post-Workshops               | 
+
+
+| Workshop Learning Environment - Data Collected  |
+|:-----------------------------------------------:| 
+| Video Recordings of Workshops                   |
+| Post-workshop Environment Questions             |
+| Cohort Interviews - Post-Workshops              | 
+
+\vspace{0.2cm}
+
+__7. The argumentative grammar for design studies, outlined by Hutchins, states that I need to have the ability to convince others that "the students would not have developed the documented forms of computational skills but for their participation in the design study." Does this warrent the comparison of the results for RQ2 between the "control" and "intervention" cohorts?__  
+
+\vspace{0.2cm}
+
+- Can this comparison be purly of the code generated for research practices *or* does it need to be a comparison of the computational knowledge acquisition strategies?   
+
+\vspace{0.2cm}
 
 __8. Do my current demographic surveys for workshop participants allow for me to separate the necessary aspects of the workshop learning environment from those that are contingent on different samples of participants?__    
+
+\vspace{0.2cm}
+
 - This is the second aspect of the argumentative grammar outlined by Hutchins. I should aim to have the ability to make explicit the conditions under which these workshops can be successfully implemented. 
 
+\vspace{0.2cm}
+
 __9. Does the position in the graduate program (e.g. first year, second year) dictate the comparisons I should make about resources utilized in acquiring the computational skills necessary for research?__  
+
+\vspace{0.2cm}
+
 - The "control" cohort will be one-year ahead of the "intervention" cohort in their programs of study.   
 - Location in program may partially determine the sophistication of the computational skills these researchers need. 
+
+\vspace{0.2cm}
 
 __10. Does my study require an argument for what implementation of the workshops looks like, following my study? Do I need to propose a sustainable workshop intervention?__ 
