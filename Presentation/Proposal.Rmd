@@ -85,14 +85,21 @@ opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, figcap.before = T
 
 - Suppose you are an Ecology graduate student studying the abundance of wild and hatchery-raised pallid sturgeon. You have collected data over the last 2 years on fish abundance along the same reaches of the Missouri River, to look for trends in fish abundance.  
 
-- When recording your data in Excel, you chose for each section of the Missouri to be a row and every sampling instance to be a different column. ![](figures/wide.jpg)
+- When recording your data in Excel, you chose for each section of the Missouri to be a row and every sampling instance to be a different column.   
+```{r, out.width = "600px", echo = FALSE, fig.align='center'}
+
+
+knitr::include_graphics("figures/wide.jpg")
+``` 
 
 
 ## Data Problems  
 
 The `R` functions you saw in your courses require for your data to be in long format.
 
-![](figures/long.jpg) 
+```{r, out.width = "500px", echo = FALSE, fig.align='center'}
+knitr::include_graphics("figures/long.jpg")
+``` 
 
 ## Motivation 
 
@@ -147,9 +154,9 @@ The `R` functions you saw in your courses require for your data to be in long fo
 
 ## Computational Knowledge Acquisition 
 
-- Most researchers "learn what they know about programming and data management on their own or the information is passed down within a lab" (Teal et al, 2015).  
+- Most researchers "learn what they know about programming and data management on their own or the information is passed down within a lab" (Teal et al., 2015).  
 
-- This process results in substantial hidden costs:
+- This process potentially results in substantial hidden costs:
     * students pick up bad habits and misunderstandings  
     * learn just enough to get through     
     * initial knowledge severely limits them 
@@ -213,7 +220,7 @@ knitr::include_graphics("figures/Path.jpg")
     * _"I had to learn the R first and then I could look back at the code and understand what was going on."_
 
 
-- Understandings informed by a student's independent research, were described largely as "high-level"" concepts. 
+- Understandings informed by a student's independent research, were described largely as "high-level" concepts. 
     * _"The data management stuff comes from independent research, trial and error, getting myself through."_    
   
 \vspace{2cm}
@@ -382,7 +389,7 @@ knitr::include_graphics("figures/workshops.jpg")
 ## Many Thanks  
 
 - Stacey Hancock   
-- Megan Wickstrom & Mary Alice  
+- Megan Wickstrom & Mary Alice Carlson 
 - Jenny Green, Laura Hildreth, Megan Higgs, Beth Burroughs
 - Workshop Facilitators! 
 
